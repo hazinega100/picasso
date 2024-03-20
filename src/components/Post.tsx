@@ -8,7 +8,7 @@ import {Button} from "components/Button";
 export const Post: React.FC<PostType> = ({id, title, body, ...otherProps}) => {
     return (
         <StylePost>
-            <Title>{id}: {title.slice(0, 14)}...</Title>
+            <Title>№{id}: {title.slice(0, 14)}...</Title>
             <Descr>{body.slice(0, 100)}...</Descr>
             <Button color={theme.colors.primary} fontSize={"12px"}>
                 <NavLink to={`/post/${id}`}>Просмотр</NavLink>
