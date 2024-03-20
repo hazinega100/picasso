@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.js": "/picasso/static/js/main.4ccd431e.js",
+    "static/js/453.728c4a2e.chunk.js": "/picasso/static/js/453.728c4a2e.chunk.js",
+    "index.html": "/picasso/index.html",
+    "main.4ccd431e.js.map": "/picasso/static/js/main.4ccd431e.js.map",
+    "453.728c4a2e.chunk.js.map": "/picasso/static/js/453.728c4a2e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.4ccd431e.js"
+  ]
+}
