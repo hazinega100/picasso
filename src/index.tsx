@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import App from "app/App";
 import reportWebVitals from "./reportWebVitals";
-import { HashRouter} from "react-router-dom";
+import {BrowserRouter} from "react-router-dom";
 import {GlobalStyles} from "styles/Global.styled";
 import {ThemeProvider} from "styled-components";
 import {theme} from "styles/Theme.styled";
@@ -15,12 +15,12 @@ const root = ReactDOM.createRoot(
 root.render(
     <React.StrictMode>
         <Provider store={store}>
-            <HashRouter>
+            <BrowserRouter>
                 <ThemeProvider theme={theme}>
                     <GlobalStyles/>
                     <App/>
                 </ThemeProvider>
-            </HashRouter>
+            </BrowserRouter>
         </Provider>
     </React.StrictMode>
 );
